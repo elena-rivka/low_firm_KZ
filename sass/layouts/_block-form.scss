@@ -1,0 +1,42 @@
+.block-form {
+    background-image: linear-gradient(rgba(23, 9, 2, 0.85), rgba(23, 9, 2, 0.85)),
+        url(../img/bg-form.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(23, 9, 2, 0.85);
+}
+
+.block-form__all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.block-form__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 78px;
+    width: 490px;
+
+    color: #ffffff;
+}
+
+.block-form__li {
+    display: flex;
+    gap: 17px;
+    width: 567px;
+    margin-bottom: 30px;
+}
+
+.block-form__txt--accent {
+    font-family: "Aclonica";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.2;
+
+    color: #f3c653;
+}

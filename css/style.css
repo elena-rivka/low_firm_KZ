@@ -1,4 +1,4 @@
-p,
+/* p,
 h1,
 h2,
 h3,
@@ -27,9 +27,9 @@ img {
   height: auto;
 
   max-width: 100%;
-}
+} */
 
-html {
+/* html {
   scroll-behavior: smooth;
 }
 
@@ -39,18 +39,17 @@ html {
 
 .link {
   text-decoration: none;
-}
+} */
 
-.container {
-  margin: 0 auto;
-  /* width: 100%; */
-  width: 1150px;
+/* .container {
+  margin: 0 auto; */
+/* width: 100%; */
+/* width: 1150px;
   padding-left: 20px;
   padding-right: 20px;
-  outline: 1px solid tomato;
-}
+} */
 
-body {
+/* body {
   background-color: #fffdee;
   color: #7a7a7a;
   font-family: "Montserrat", sans-serif;
@@ -59,20 +58,20 @@ body {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.02em;
-}
+} */
 
 /************* Шапка *************/
 
-.header {
+/* .header {
   padding-top: 27px;
   padding-bottom: 28px;
 
   position: absolute;
   z-index: 1;
   width: 100%;
-}
+} */
 
-.logo {
+/* .logo {
   font-family: "Aclonica", sans-serif;
   font-weight: 400;
   font-size: 40px;
@@ -80,14 +79,20 @@ body {
   line-height: 1.2;
 
   color: #f3c653;
-}
+} */
 
-.menu {
+/* .menu {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
 
   color: #f3c653;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu:hover,
+.menu:focus {
+  color: #fff;
 }
 
 .header__nav {
@@ -99,11 +104,11 @@ body {
 .header__menu {
   display: flex;
   gap: 115px;
-}
+} */
 
 /*************** Герой **************/
 
-.hero {
+/* .hero {
   position: relative;
 
   background-image: linear-gradient(rgba(23, 9, 2, 0.85), rgba(23, 9, 2, 0.85)),
@@ -169,9 +174,11 @@ body {
   position: absolute;
   bottom: 0;
   left: 302px;
-}
+} */
+
 /************* Форма *************/
-.form__title {
+
+/* .form__title {
   font-family: "Times New Roman", serif;
   font-weight: 400;
   font-size: 32px;
@@ -228,6 +235,7 @@ body {
   border-radius: 2px;
   padding: 16px 19px;
   margin-top: 9px;
+  width: 100%;
 
   font-weight: 500;
   font-size: 20px;
@@ -235,10 +243,19 @@ body {
   text-align: center;
 
   color: #000000;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form__button:hover,
+.form__button:focus {
+  background-color: #000000;
+  border: 1px solid #f3c653;
+  color: #fff;
+} */
+
 /***************** Наша команда *****************/
-.about {
+/* .about {
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -273,10 +290,10 @@ body {
 
 .team_img {
   height: 414px;
-}
+} */
 
-.button {
-  background: #000000;
+/* .button {
+  background-color: #000000;
   border: 1px solid #f3c653;
   border-radius: 2px;
   font-weight: 500;
@@ -285,11 +302,337 @@ body {
   padding: 18px 106px;
 
   color: #ffffff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.button:hover,
+.button:focus {
+  background-color: #f3c653;
+  color: #000;
+} */
+
+/* .button__block {
+  text-align: center;
+  margin-top: 70px;
+} */
+
+/************* Слайдер *************/
+
+/* .about-gen__slider {
+  max-width: 842px;
+}
+
+.about-gen__slider .slick-track {
+  display: flex;
+  gap: 40px;
+}
+
+.slic-active {
+  opacity: 1;
+  border-radius: 2px;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.4);
+}
+
+.slic-slide {
+  opacity: 0;
+} */
+
+/* кнопки */
+/* .about-svg {
+  cursor: pointer;
+
+  display: flex;
+  position: relative;
+  fill: #000;
+
+  top: 20px;
+  left: 730px;
+}
+
+.about-svg-left {
+  margin-right: 34px;
+}
+.about-svg-left:hover,
+.about-svg-left:focus {
+  fill: #f3c653;
+}
+
+.about-svg-right:hover,
+.about-svg-right:focus {
+  fill: #f3c653;
+}
+
+.about__text {
+  line-height: 1.5;
+
+  color: #c79002;
+}
+
+.about-block--all {
+  display: flex;
+  gap: 60px;
+  margin-top: 50px;
+}
+
+.about__slider--name {
+  font-weight: 700;
+  line-height: 1.2;
+
+  color: #f3c653;
+}
+
+.about__slider--pos {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+
+  color: #ffffff;
+}
+
+.about-block_name {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 0px 0px 2px 2px;
+  padding: 8px;
+} */
+
+/******************* Услуги ******************/
+
+/* .services {
+  padding-bottom: 80px;
+  background-color: #f0ecd6;
+}
+
+.services__title {
+  font-family: "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 32px;
+
+  color: #000000;
+}
+
+.services__sub-title {
+  line-height: 1.2;
+  width: 599px;
+  color: #7a7a7a;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.services__li {
+  display: flex;
+  justify-content: center;
+  width: 848px;
+  margin: 0 auto;
+  gap: 67px;
+}
+
+.services__li:not(:last-child) {
+  padding-bottom: 50px;
+}
+
+.services__list {
+  margin-top: 78px;
+}
+
+.services__h3 {
+  font-family: "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  margin-bottom: 42px;
+
+  color: #c79002;
+}
+
+.services__btn {
+  background-color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 14px 50px;
+
+  color: #f3c653;
+  margin-top: 57px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.services__btn:hover,
+.services__btn:focus {
+  background-color: #ffffff;
+  border: 2px solid #f3c653;
+} */
+
+/*************** Форма **************/
+/* .block-form {
+  background-image: linear-gradient(rgba(23, 9, 2, 0.85), rgba(23, 9, 2, 0.85)),
+    url(../img/bg-form.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(23, 9, 2, 0.85);
+}
+.block-form__all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.block-form__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 78px;
+  width: 490px;
+
+  color: #ffffff;
+}
+
+.block-form__li {
+  display: flex;
+  gap: 17px;
+  width: 567px;
+  margin-bottom: 30px;
+}
+
+.block-form__txt--accent {
+  font-family: "Aclonica";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.2;
+
+  color: #f3c653;
+} */
+
+/***************** Футтер ****************/
+/* .footer {
+  background-color: #0e0c07;
+}
+
+.footer__menu {
+  display: block;
+}
+
+.footer__address-block {
+  display: flex;
+  gap: 10px;
+  width: 285px;
+  align-items: center;
+  padding: 8px;
+  border: 0.5px solid #f3c653;
+  border-radius: 2px;
+}
+
+.footer__all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footer__icon {
+  width: 31px;
+  height: 31px;
+} */
+
+/************** Модалка *************/
+
+/* .backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 528px;
+  height: 455px;
+  padding: 40px;
+
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border: 1px solid #c79002;
+
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.modal__close {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  fill: #000;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__title {
+  font-family: "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin-bottom: 40px;
+
+  color: #000000;
+}
+
+.modal__close:hover,
+.modal__close:focus {
+  border-color: #c79002;
+  fill: #c79002;
+}
+
+.modal__input {
+  width: 443px;
+} */
 /************ Шрифты **********/
 
-@font-face {
+/* @font-face {
   font-family: "Times New Roman";
   src: url(../fonts/TimesNewRoman-Regular.ttf);
   font-weight: 400;
@@ -301,4 +644,4 @@ body {
   src: url(../fonts/TimesNewRoman-Bold.ttf);
   font-weight: 700;
   font-style: normal;
-}
+} */

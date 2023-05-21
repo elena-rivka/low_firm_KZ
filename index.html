@@ -18,25 +18,35 @@
       href="https://fonts.googleapis.com/css2?family=Aclonica&family=Montserrat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- Телефон -->
+    <link rel="stylesheet" href="css/intlTelInput.css" />
+    <!-- Телефон конец -->
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!---------------- Шапка ----------------->
-    <header class="header">
+    <!-- <header class="header">
       <div class="container">
         <nav class="header__nav">
           <a href="./index.html" class="logo link">LAWYER'S HELP</a>
           <ul class="list header__menu">
             <li class="header__menu-li">
-              <a href="." class="link menu">Услуги компании</a>
+              <a href="#services" class="link menu">Услуги компании</a>
             </li>
             <li class="header__menu-li">
-              <a href="." class="link menu">Наша команда</a>
+              <a href="#about" class="link menu">Наша команда</a>
             </li>
           </ul>
         </nav>
       </div>
-    </header>
+    </header> -->
     <!---------------- Герой ----------------->
     <main>
       <section class="hero">
@@ -73,7 +83,7 @@
               width="486"
               height="670"
             />
-            <div class="form__block">
+            <div class="form__block form__block-mob">
               <p class="form__title">Бесплатная консультация</p>
               <p class="form__sub-title">
                 Наш специалист свяжется с вами для решения вашей проблемы
@@ -100,16 +110,18 @@
                   ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
                 </button>
               </form>
+
             </div>
+            <div class="button-mob"><a href="" class="link form__button">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</a></div>
           </div>
         </div>
       </section>
       <!------------------ Наша команда ------------------->
-      <section class="about">
+      <!-- <section class="about">
         <div class="container">
           <div class="about-block-one">
             <div class="about-block">
-              <h2 class="about__title">Наша команда</h2>
+              <a name="about"><h2 class="about__title">Наша команда</h2></a>
               <p class="about__logo logo">LAWYER'S HELP</p>
               <p class="about__txt-one">
                 Добро пожаловать в нашу юридическую компанию, специализирующуюся
@@ -130,132 +142,469 @@
               class="team_img"
               width="622"
             />
+          </div> -->
+          <!-- слайдер -->
+          <!-- <div class="about-block--all">
+            <div class="about-block--slider">
+              <div class="about-gen__slider about-slider">
+                <div>
+                  <img src="./img/img1.jpg" alt="юрист" width="254" />
+                  <div class="about-block_name">
+                    <p class="about__slider--name">Амир Ахмедов</p>
+                    <p class="about__slider--pos">Старший юрист</p>
+                  </div>
+                </div>
+                <div>
+                  <img src="./img/img2.jpg" alt="юрист" width="254" />
+                  <div class="about-block_name">
+                    <p class="about__slider--name">Камилла Бекташева</p>
+                    <p class="about__slider--pos">Старший юрист</p>
+                  </div>
+                </div>
+                <div>
+                  <img src="./img/img3.jpg" alt="юрист" width="254" />
+                  <div class="about-block_name">
+                    <p class="about__slider--name">Фархат Хамзин</p>
+                    <p class="about__slider--pos">Старший юрист</p>
+                  </div>
+                </div>
+                <div>
+                  <img src="./img/img4.jpg" alt="юрист" width="254" />
+                  <div class="about-block_name">
+                    <p class="about__slider--name">Малика Мирзокулова</p>
+                    <p class="about__slider--pos">Юрист</p>
+                  </div>
+                </div>
+                <div>
+                  <img src="./img/img5.jpg" alt="юрист" width="254" />
+                  <div class="about-block_name">
+                    <p class="about__slider--name">Aлик Ашимов</p>
+                    <p class="about__slider--pos">Юрист</p>
+                  </div>
+                </div>
+                <div>
+                  <img src="./img/img6.jpg" alt="юрист" width="254" />
+                  <div class="about-block_name">
+                    <p class="about__slider--name">Муратбек Кусаинов</p>
+                    <p class="about__slider--pos">Юрист</p>
+                  </div>
+                </div>
+                <div>
+                  <img src="./img/img7.jpg" alt="юрист" width="254" />
+                  <div class="about-block_name">
+                    <p class="about__slider--name">Алия Мырзагалиева</p>
+                    <p class="about__slider--pos">Старший юрист</p>
+                  </div>
+                </div>
+              </div> -->
+
+              <!-- стрелки слайдера -->
+
+              <!-- <div class="about-svg">
+                <svg class="about-svg-left prev" width="32" height="32">
+                  <use href="./img/icon.svg#icon-arrow-left"></use>
+                </svg>
+                <svg class="about-svg-right next" width="32" height="32">
+                  <use href="./img/icon.svg#icon-arrow-right"></use>
+                </svg>
+              </div>
+            </div> -->
+            <!-- Конец -->
+
+            <!-- <div class="about__text--bl">
+              <p class="about__text">
+                Мы гарантируем индивидуальный подход к каждому клиенту,
+                профессиональную юридическую помощь и полную конфиденциальность.
+                Обратившись к нам, вы получите высококачественный сервис и
+                уверенность в том, что ваша проблема будет решена в кратчайшие
+                сроки.
+              </p>
+            </div>
           </div>
 
-          <button type="button" class="button">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+          <div class="button__block">
+            <a href="#forma" class="link button">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</a>
+          </div>
         </div>
-      </section>
+      </section> -->
       <!----------------- Услуги ----------------->
-      <section class="services">
+      <!-- <section class="services">
         <div class="container">
-          <h2 class="services__title">УСЛУГИ КОМПАНИИ</h2>
+          <a name="services"
+            ><h2 class="services__title">УСЛУГИ КОМПАНИИ</h2></a
+          >
           <p class="services__sub-title">
-            Потеряли деньги из-за мошенников? Не отчаивайтесь! Мы - юридическая
-            компания, которая поможет вернуть вам ваши потерянные деньги.
+            Потеряли деньги из-за мошенников? Не отчаивайтесь! <br />
+            Мы - юридическая компания, которая поможет вернуть вам ваши
+            потерянные деньги.
           </p>
           <ul class="services__list list">
             <li class="services__li">
               <img src="./img/forex.jpg" alt="Форекс" width="254" />
-              <h3>Форекс мошенники</h3>
-              <p>
-                Возврат средств от инвестиционных компаний, а так же биржевых и
-                Forex брокеров.
-              </p>
-              <button type="button">Узнать больше</button>
+              <div class="services__block">
+                <h3 class="services__h3">Форекс мошенники</h3>
+                <p class="services__p">
+                  Возврат средств от инвестиционных компаний, а так же биржевых
+                  и Forex брокеров.
+                </p>
+                <button type="button" class="services__btn" data-modal-open>
+                  Узнать больше
+                </button>
+              </div>
             </li>
             <li class="services__li">
               <img src="./img/internet-safety.jpg" alt="мошенник" width="254" />
-              <h3>Any desk и Team Viewer</h3>
-              <p>
-                Поможем вам если деньги были украденные с помощью программного
-                обеспечения для удаленного рабочего места.
-              </p>
-              <button type="button">Узнать больше</button>
+              <div class="services__block">
+                <h3 class="services__h3">Any desk и Team Viewer</h3>
+                <p class="services__p">
+                  Поможем вам если деньги были украденные с помощью программного
+                  обеспечения для удаленного рабочего места.
+                </p>
+                <button type="button" class="services__btn" data-modal-open1>
+                  Узнать больше
+                </button>
+              </div>
             </li>
             <li class="services__li">
               <img src="./img/bitcoin.jpg" alt="биткоин" width="254" />
-              <h3>Bitcoin и Blockhain аферы</h3>
-              <p>
-                Поиск украденой криптовалюты, разблокировка крипто счетов и
-                запрос на компенсацию токенов.
-              </p>
-              <button type="button">Узнать больше</button>
+              <div class="services__block">
+                <h3 class="services__h3">Bitcoin и Blockhain аферы</h3>
+                <p class="services__p">
+                  Поиск украденой криптовалюты, разблокировка крипто счетов и
+                  запрос на компенсацию токенов.
+                </p>
+                <button type="button" class="services__btn" data-modal-open2>
+                  Узнать больше
+                </button>
+              </div>
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!---------------- Блок с формой+ --------------->
-      <section class="block-form">
+      <!-- <section class="block-form">
         <div class="container">
-          <div class="form__block">
-            <p class="form__title">Бесплатная консультация</p>
-            <p class="form__sub-title">
-              Наш специалист свяжется с вами для решения вашей проблемы
-            </p>
-            <form class="form" method="POST" action="./telegram.php">
-              <input
-                type="text"
-                name="user-name"
-                id="user-name"
-                class="forma__input"
-                placeholder="Ваше ФИО"
-                required
-              />
+          <div class="block-form__all">
+            <div class="form__block">
+              <a name="forma">
+                <p class="form__title">
+                  Не знаете, к какой сфере относится ваш случай?
+                </p>
+              </a>
+              <p class="form__sub-title">
+                Оставьте ваш номер, мы перезвоним для консультации
+              </p>
+              <form class="form" method="POST" action="./telegram.php">
+                <input
+                  type="text"
+                  name="user-name"
+                  id="user-name"
+                  class="forma__input"
+                  placeholder="Ваше ФИО"
+                  required
+                />
 
-              <input
-                type="tel"
-                name="phone_number[main]"
-                id="phone_number"
-                class="forma__input"
-                onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
-                required
-              />
-              <button type="submit" class="form__button">
-                ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
-              </button>
-            </form>
+                <input
+                  type="tel"
+                  name="phone[main]"
+                  id="phone"
+                  class="forma__input"
+                  onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
+                  required
+                />
+                <button type="submit" class="form__button">
+                  ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
+                </button>
+              </form>
+            </div>
+            <div class="block-form-text">
+              <h2 class="block-form__title">
+                Ваши интересы защищает команда практикующих юристов
+              </h2>
+              <ul class="list block-form__list">
+                <li class="block-form__li">
+                  <span class="block-form__txt--accent">1.</span>
+                  <p class="block-form__txt">
+                    Вы занимаетесь своим делами, мы — вашими юридическими
+                    спорами.
+                  </p>
+                </li>
+                <li class="block-form__li">
+                  <span class="block-form__txt--accent">2.</span>
+                  <p class="block-form__txt">
+                    Еженедельно информируем вас о каждом этапе ведения дела.
+                  </p>
+                </li>
+                <li class="block-form__li">
+                  <span class="block-form__txt--accent">3.</span>
+                  <p class="block-form__txt">
+                    Наш приоритет работы — полное решение вашей проблемы с
+                    минимальными издержками.
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
-          <h2 class="block-form__title">
-            Ваши интересы защищает команда практикующих юристов
-          </h2>
-          <ul class="list block-form__list">
-            <li class="block-form__li">
-              <span class="block-form__txt--accent">1.</span>
-              <p class="block-form__txt">
-                Вы занимаетесь своим делами, мы — вашими юридическими спорами.
-              </p>
-            </li>
-            <li class="block-form__li">
-              <span class="block-form__txt--accent">2.</span>
-              <p class="block-form__txt">
-                Еженедельно информируем вас о каждом этапе ведения дела.
-              </p>
-            </li>
-            <li class="block-form__li">
-              <span class="block-form__txt--accent">3.</span>
-              <p class="block-form__txt">
-                Наш приоритет работы — полное решение вашей проблемы с
-                минимальными издержками.
-              </p>
-            </li>
-          </ul>
         </div>
       </section>
-    </main>
+    </main> -->
     <!----------------- Футтер ---------------->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="logo link">LAWYER'S HELP</a>
-        <ul class="list header__menu">
-          <li class="header__menu-li">
-            <a href="." class="link menu">Главная</a>
-          </li>
-          <li class="header__menu-li">
-            <a href="." class="link menu">Услуги компании</a>
-          </li>
-          <li class="header__menu-li">
-            <a href="." class="link menu">Наша команда</a>
-          </li>
-        </ul>
-        <div class="footer__address-block">
-          <svg class="footer__icon" width="24" height="24">
-            <use href="./img/icon.svg#icon-location-pin"></use>
-          </svg>
-          <p class="footer__address">Казахстан, г. Караганда, ул. Ленина, 15</p>
+        <div class="footer__all">
+          <div class="footer__one">
+            <a href="./index.html" class="logo link">LAWYER'S HELP</a>
+          </div>
+          <div class="footer__two">
+            <ul class="list header__menu footer__menu">
+              <li class="header__menu-li">
+                <a href="./index.html" class="link menu">Главная</a>
+              </li>
+              <li class="header__menu-li">
+                <a href="#services" class="link menu">Услуги компании</a>
+              </li>
+              <li class="header__menu-li">
+                <a href="#about" class="link menu">Наша команда</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__three">
+            <div class="footer__address-block">
+              <img
+                src="./img/entypo_location-pin.svg"
+                class="footer__icon"
+                alt="локация"
+                width="31"
+              />
+              <p class="footer__address">
+                Казахстан, г. Караганда, ул.Ленина, 15
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
-    <script src="./js/slider.js"></script>
+    <!-- Модальное окно is-hidden для Forex-->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal__close" data-modal-close>
+          <svg class="modal__icon" width="18" height="18">
+            <use href="./img/icon.svg#icon-mob-close"></use>
+          </svg>
+        </button>
+        <p class="modal__title">Бесплатная консультация</p>
+        <form class="form" method="POST" action="./telegram.php">
+          <input
+            type="text"
+            name="user-name"
+            id="user-name"
+            class="forma__input modal__input"
+            placeholder="Ваше ФИО"
+            required
+          />
+
+          <input
+            type="tel"
+            name="phone-forex[main]"
+            id="phone-forex"
+            class="forma__input modal__input"
+            onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
+            required
+          />
+          <button type="submit" class="form__button">
+            ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- Модальное окно is-hidden для АниДеск-->
+    <div class="backdrop is-hidden" data-modal1>
+      <div class="modal">
+        <button class="modal__close" data-modal-close1>
+          <svg class="modal__icon" width="18" height="18">
+            <use href="./img/icon.svg#icon-mob-close"></use>
+          </svg>
+        </button>
+        <p class="modal__title">Бесплатная консультация</p>
+        <form class="form" method="POST" action="./telegram.php">
+          <input
+            type="text"
+            name="user-name"
+            id="user-name"
+            class="forma__input modal__input"
+            placeholder="Ваше ФИО"
+            required
+          />
+
+          <input
+            type="tel"
+            name="phone-any[main]"
+            id="phone-any"
+            class="forma__input modal__input"
+            onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
+            required
+          />
+          <button type="submit" class="form__button">
+            ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- Модальное окно is-hidden для Биткоин-->
+    <div class="backdrop is-hidden" data-modal2>
+      <div class="modal">
+        <button class="modal__close" data-modal-close2>
+          <svg class="modal__icon" width="18" height="18">
+            <use href="./img/icon.svg#icon-mob-close"></use>
+          </svg>
+        </button>
+        <p class="modal__title">Бесплатная консультация</p>
+        <form class="form" method="POST" action="./telegram.php">
+          <input
+            type="text"
+            name="user-name"
+            id="user-name"
+            class="forma__input modal__input"
+            placeholder="Ваше ФИО"
+            required
+          />
+
+          <input
+            type="tel"
+            name="phone-bitcoin[main]"
+            id="phone-bitcoin"
+            class="forma__input modal__input"
+            onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
+            required
+          />
+          <button type="submit" class="form__button">
+            ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script>
+      $(".about-slider").slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        initialSlide: 0,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        variableWidth: true,
+        prevArrow: $(".prev"),
+        nextArrow: $(".next"),
+      });
+    </script>
+
+    <!-- load jQuery library -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- load plugin -->
+    <script src="js/intlTelInput.js"></script>
+
+    <!-- Для формы в герое -->
+    <script>
+      var input = document.querySelector("#phone_number");
+      intlTelInput(input, {
+        initialCountry: "auto",
+        hiddenInput: "full",
+        separateDialCode: true,
+        geoIpLookup: function (success, failure) {
+          $.get("https://ipinfo.io", function () {}, "jsonp").always(function (
+            resp
+          ) {
+            var countryCode = resp && resp.country ? resp.country : "";
+            success(countryCode);
+          });
+        },
+        utilsScript: "./js/utils.js",
+      });
+    </script>
+    <!-- Для формы внизу -->
+    <script>
+      var input = document.querySelector("#phone");
+      intlTelInput(input, {
+        initialCountry: "auto",
+        hiddenInput: "full",
+        separateDialCode: true,
+        geoIpLookup: function (success, failure) {
+          $.get("https://ipinfo.io", function () {}, "jsonp").always(function (
+            resp
+          ) {
+            var countryCode = resp && resp.country ? resp.country : "";
+            success(countryCode);
+          });
+        },
+        utilsScript: "./js/utils.js",
+      });
+    </script>
+    <!-- Для формы Форекс -->
+    <script>
+      var input = document.querySelector("#phone-forex");
+      intlTelInput(input, {
+        initialCountry: "auto",
+        hiddenInput: "full",
+        separateDialCode: true,
+        geoIpLookup: function (success, failure) {
+          $.get("https://ipinfo.io", function () {}, "jsonp").always(function (
+            resp
+          ) {
+            var countryCode = resp && resp.country ? resp.country : "";
+            success(countryCode);
+          });
+        },
+        utilsScript: "./js/utils.js",
+      });
+    </script>
+    <!-- Для формы АниДеск -->
+    <script>
+      var input = document.querySelector("#phone-any");
+      intlTelInput(input, {
+        initialCountry: "auto",
+        hiddenInput: "full",
+        separateDialCode: true,
+        geoIpLookup: function (success, failure) {
+          $.get("https://ipinfo.io", function () {}, "jsonp").always(function (
+            resp
+          ) {
+            var countryCode = resp && resp.country ? resp.country : "";
+            success(countryCode);
+          });
+        },
+        utilsScript: "./js/utils.js",
+      });
+    </script>
+    <!-- Для формы Биткоин -->
+    <script>
+      var input = document.querySelector("#phone-bitcoin");
+      intlTelInput(input, {
+        initialCountry: "auto",
+        hiddenInput: "full",
+        separateDialCode: true,
+        geoIpLookup: function (success, failure) {
+          $.get("https://ipinfo.io", function () {}, "jsonp").always(function (
+            resp
+          ) {
+            var countryCode = resp && resp.country ? resp.country : "";
+            success(countryCode);
+          });
+        },
+        utilsScript: "./js/utils.js",
+      });
+    </script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

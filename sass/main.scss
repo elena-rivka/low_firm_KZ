@@ -1,0 +1,19 @@
+@import './utils/mixins';
+
+@import './base/font';
+@import './base/common';
+@import './base/reset';
+
+@import './components/logo';
+@import './components/container';
+@import './components/btn';
+@import './components/modal';
+@import './components/form';
+
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/about';
+@import './layouts/slider';
+@import './layouts/services';
+@import './layouts/block-form';
+@import './layouts/footer';

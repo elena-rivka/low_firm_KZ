@@ -1,0 +1,79 @@
+.about-gen__slider {
+    max-width: 842px;
+}
+
+.about-gen__slider .slick-track {
+    display: flex;
+    gap: 40px;
+}
+
+.slic-active {
+    opacity: 1;
+    border-radius: 2px;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.4);
+}
+
+.slic-slide {
+    opacity: 0;
+}
+
+//  кнопки 
+
+.about-svg {
+    cursor: pointer;
+
+    display: flex;
+    position: relative;
+    fill: #000;
+
+    top: 20px;
+    left: 730px;
+}
+
+.about-svg-left {
+    margin-right: 34px;
+}
+
+.about-svg-left:hover,
+.about-svg-left:focus {
+    fill: #f3c653;
+}
+
+.about-svg-right:hover,
+.about-svg-right:focus {
+    fill: #f3c653;
+}
+
+.about__text {
+    line-height: 1.5;
+
+    color: #c79002;
+}
+
+.about-block--all {
+    display: flex;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.about__slider--name {
+    font-weight: 700;
+    line-height: 1.2;
+
+    color: #f3c653;
+}
+
+.about__slider--pos {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+
+    color: #ffffff;
+}
+
+.about-block_name {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 0px 0px 2px 2px;
+    padding: 8px;
+}

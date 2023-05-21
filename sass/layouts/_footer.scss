@@ -1,0 +1,30 @@
+.footer {
+    background-color: #0e0c07;
+}
+
+.footer__menu {
+    display: block;
+}
+
+.footer__address-block {
+    display: flex;
+    gap: 10px;
+    width: 285px;
+    align-items: center;
+    padding: 8px;
+    border: 0.5px solid #f3c653;
+    border-radius: 2px;
+}
+
+.footer__all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer__icon {
+    width: 31px;
+    height: 31px;
+}
