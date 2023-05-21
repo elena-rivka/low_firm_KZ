@@ -236,6 +236,57 @@ body {
 
   color: #000000;
 }
+
+/***************** Наша команда *****************/
+.about {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.about__title {
+  font-family: "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.2;
+  margin-bottom: 26px;
+  padding-top: 40px;
+
+  color: #b4b4b4;
+}
+
+.about__logo {
+  color: #494848;
+  margin-bottom: 26px;
+}
+
+.about__txt-one {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  width: 404px;
+}
+
+.about-block-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team_img {
+  height: 414px;
+}
+
+.button {
+  background: #000000;
+  border: 1px solid #f3c653;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  padding: 18px 106px;
+
+  color: #ffffff;
+}
+
 /************ Шрифты **********/
 
 @font-face {
