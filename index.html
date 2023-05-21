@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Юридическая компания - LAWYER'S HELP</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!---------------- Шапка ----------------->
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav">
+          <a href="./index.html" class="logo link">LAWYER'S HELP</a>
+          <ul class="list header__menu">
+            <li class="header__menu-li">
+              <a href="." class="link menu">Услуги компании</a>
+            </li>
+            <li class="header__menu-li">
+              <a href="." class="link menu">Наша команда</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!---------------- Герой ----------------->
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__block--all">
+            <div class="hero__block--one">
+              <h1 class="hero__title">Обманул мошенник?</h1>
+              <p class="hero__sub-title">
+                Поможем вернуть деньги без предоплаты!
+              </p>
+              <ul class="list hero__list">
+                <li class="hero__li">
+                  <img src="./img/phone.svg" alt="телефон" width="31" />
+                  <p class="hero__adv">
+                    Предоставляем квалифицированную консультацию
+                  </p>
+                </li>
+                <li class="hero__li">
+                  <img src="./img/men.svg" alt="человек" width="29" />
+                  <p class="hero__adv">Оказываем помощь в решении проблем</p>
+                </li>
+                <li class="hero__li hero__li--sp">
+                  <img src="./img/coin-dollar.svg" alt="доллар" width="31" />
+                  <p class="hero__adv">
+                    Поможем вернуть средства без предоплаты
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <img
+              src="./img/girl.png"
+              class="hero__girl"
+              alt="девушка юрист"
+              width="486"
+              height="670"
+            />
+            <div class="form__block">
+              <p class="form__title">Бесплатная консультация</p>
+              <p class="form__sub-title">
+                Наш специалист свяжется с вами для решения вашей проблемы
+              </p>
+              <form class="form" method="POST" action="./telegram.php">
+                <input
+                  type="text"
+                  name="user-name"
+                  id="user-name"
+                  class="forma__input"
+                  placeholder="Ваше ФИО"
+                  required
+                />
+
+                <input
+                  type="tel"
+                  name="phone_number[main]"
+                  id="phone_number"
+                  class="forma__input"
+                  onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
+                  required
+                />
+                <button type="submit" class="form__button">
+                  ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------------------ О компании ------------------->
+      <section class="about">
+        <div class="container">
+          <h2 class="about__title">Наша команда</h2>
+          <p class="about__logo logo">LAWYER'S HELP</p>
+          <p class="about__txt-one">
+            Добро пожаловать в нашу юридическую компанию, специализирующуюся на
+            возврате денег, украденных мошенниками.Наша компания работает без
+            предоплаты, поэтому вы можете быть уверены в том, что наши
+            специалисты будут нацелены только на то, чтобы вернуть вам ваши
+            деньги.
+          </p>
+          <p class="about__txt-two">
+            Мы готовы взять на себя все необходимые действия, включая общение с
+            банками, судебными и правоохранительными органами, чтобы обеспечить
+            эффективный и быстрый возврат ваших денег.
+          </p>
+          <img src="./img/team.jpg" alt="команда" width="622" />
+          <button type="button" class="button">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+        </div>
+      </section>
+      <!----------------- Услуги ----------------->
+      <section class="services">
+        <div class="container">
+          <h2 class="services__title">УСЛУГИ КОМПАНИИ</h2>
+          <p class="services__sub-title">
+            Потеряли деньги из-за мошенников? Не отчаивайтесь! Мы - юридическая
+            компания, которая поможет вернуть вам ваши потерянные деньги.
+          </p>
+          <ul class="services__list list">
+            <li class="services__li">
+              <img src="./img/forex.jpg" alt="Форекс" width="254" />
+              <h3>Форекс мошенники</h3>
+              <p>
+                Возврат средств от инвестиционных компаний, а так же биржевых и
+                Forex брокеров.
+              </p>
+              <button type="button">Узнать больше</button>
+            </li>
+            <li class="services__li">
+              <img src="./img/internet-safety.jpg" alt="мошенник" width="254" />
+              <h3>Any desk и Team Viewer</h3>
+              <p>
+                Поможем вам если деньги были украденные с помощью программного
+                обеспечения для удаленного рабочего места.
+              </p>
+              <button type="button">Узнать больше</button>
+            </li>
+            <li class="services__li">
+              <img src="./img/bitcoin.jpg" alt="биткоин" width="254" />
+              <h3>Bitcoin и Blockhain аферы</h3>
+              <p>
+                Поиск украденой криптовалюты, разблокировка крипто счетов и
+                запрос на компенсацию токенов.
+              </p>
+              <button type="button">Узнать больше</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!---------------- Блок с формой+ --------------->
+      <section class="block-form">
+        <div class="container">
+          <div class="form__block">
+            <p class="form__title">Бесплатная консультация</p>
+            <p class="form__sub-title">
+              Наш специалист свяжется с вами для решения вашей проблемы
+            </p>
+            <form class="form" method="POST" action="./telegram.php">
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                class="forma__input"
+                placeholder="Ваше ФИО"
+                required
+              />
+
+              <input
+                type="tel"
+                name="phone_number[main]"
+                id="phone_number"
+                class="forma__input"
+                onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
+                required
+              />
+              <button type="submit" class="form__button">
+                ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
+              </button>
+            </form>
+          </div>
+          <h2 class="block-form__title">
+            Ваши интересы защищает команда практикующих юристов
+          </h2>
+          <ul class="list block-form__list">
+            <li class="block-form__li">
+              <span class="block-form__txt--accent">1.</span>
+              <p class="block-form__txt">
+                Вы занимаетесь своим делами, мы — вашими юридическими спорами.
+              </p>
+            </li>
+            <li class="block-form__li">
+              <span class="block-form__txt--accent">2.</span>
+              <p class="block-form__txt">
+                Еженедельно информируем вас о каждом этапе ведения дела.
+              </p>
+            </li>
+            <li class="block-form__li">
+              <span class="block-form__txt--accent">3.</span>
+              <p class="block-form__txt">
+                Наш приоритет работы — полное решение вашей проблемы с
+                минимальными издержками.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!----------------- Футтер ---------------->
+    <footer class="footer">
+      <div class="container">
+        <a href="./index.html" class="logo link">LAWYER'S HELP</a>
+        <ul class="list header__menu">
+          <li class="header__menu-li">
+            <a href="." class="link menu">Главная</a>
+          </li>
+          <li class="header__menu-li">
+            <a href="." class="link menu">Услуги компании</a>
+          </li>
+          <li class="header__menu-li">
+            <a href="." class="link menu">Наша команда</a>
+          </li>
+        </ul>
+        <div class="footer__address-block">
+          <svg class="footer__icon" width="24" height="24">
+            <use href="./img/icon.svg#icon-location-pin"></use>
+          </svg>
+          <p class="footer__address">Казахстан, г. Караганда, ул. Ленина, 15</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
