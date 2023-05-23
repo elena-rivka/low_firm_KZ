@@ -9,7 +9,6 @@
 
 .menu {
     font-weight: 500;
-    font-size: 20px;
     letter-spacing: 0.02em;
 
     color: #f3c653;
@@ -19,6 +18,15 @@
     &:focus {
             color: #fff;
         }
+    display: none;
+
+    @include tablet {
+        display: block;
+        font-size: 16px;
+    }
+    @include desktop {
+        font-size: 20px;
+    }
 }
 
 .header__nav {
@@ -29,5 +37,11 @@
 
 .header__menu {
     display: flex;
-    gap: 115px;
+
+    @include tablet {
+        gap: 66px;
+    }
+    @include desktop {
+        gap: 115px;
+    }
 }

@@ -1,17 +1,28 @@
 .about {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @include desktop {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
 }
 
 .about__title {
     font-family: "Times New Roman", serif;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 1.2;
-    margin-bottom: 26px;
-    padding-top: 40px;
+    margin-bottom: 23px;
+    padding-top: 0px;
 
     color: #b4b4b4;
+
+    @include desktop {
+        padding-top: 40px;
+        font-size: 32px;
+        margin-bottom: 26px;
+    }
 }
 
 .about__logo {
@@ -23,16 +34,31 @@
     margin-bottom: 20px;
     line-height: 1.5;
     text-align: justify;
-    width: 404px;
+    width: 100%;
+    font-size: 14px;
+
+    @include desktop {
+        width: 404px;
+        font-size: 16px;
+    }
 }
 
 .about-block-one {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
+    @include desktop {
+        flex-wrap: nowrap;
+    }
 }
 
 .team_img {
-    height: 414px;
+    height: 100%;
+
+    @include desktop {
+        height: 414px;
+    }
 }
 
 .button__block {

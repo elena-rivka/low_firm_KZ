@@ -1,31 +1,66 @@
 .form__title {
     font-family: "Times New Roman", serif;
     font-weight: 400;
-    font-size: 32px;
     line-height: 1.2;
+    font-size: 26px;
 
     color: #202020;
-    margin-bottom: 18px;
+
+    @include tablet {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    @include desktop {
+        font-size: 32px;
+        margin-bottom: 18px;
+    }
 }
 
 .form__sub-title {
     line-height: 1.2;
     text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 22px;
 
     color: #c79002;
-    margin-bottom: 44px;
+
+    @include tablet {
+        font-size: 14px;
+        margin-bottom: 31px;
+    }
+
+    @include desktop {
+        font-size: 16px;
+        margin-bottom: 44px;
+    }
 }
 
 .form__block {
-    width: 406px;
     text-align: center;
-
+    width: 100%;
+    padding: 33px 18px 38px;
     background-color: #fffdee;
-    padding: 33px 27px 38px;
+
+    @include tablet {
+        width: 320px;
+        z-index: 2;
+        padding: 33px 18px 38px;
+    }
+
+    @include desktop {
+        width: 406px;
+        padding: 33px 27px 38px;
+    }
 }
 
 .form__block-mob {
     display: none;
+
+    @include tablet {
+        display: block;
+    }
 
     @include desktop {
         display: block;
@@ -35,26 +70,44 @@
 .form {
     display: flex;
     flex-wrap: wrap;
-    gap: 43px;
     justify-content: center;
+    gap: 25px;
+
+    @include tablet {
+        gap: 25px;
+    }
+    @include desktop {
+        gap: 43px;
+    }
 }
 
 .forma__input {
     border: 1px solid #c79002;
     border-radius: 2px;
     outline: rgba(0, 0, 0, 0);
-    width: 351px;
-    height: 64px;
     padding: 20px 12px;
+    width: 282px;
+    height: 53px;
 
     font-family: "Times New Roman", serif;
     font-weight: 700;
-    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.05em;
     background-color: transparent;
 
     color: #808080;
+
+    @include tablet {
+        width: 282px;
+        height: 53px;
+        font-size: 16px;
+    }
+
+    @include desktop {
+        width: 351px;
+        height: 64px;
+        font-size: 20px;
+    }
 }
 
 .form__button {
@@ -64,9 +117,9 @@
     padding: 16px 19px;
     margin-top: 9px;
     width: 100%;
+    font-size: 14px;
 
     font-weight: 500;
-    font-size: 18px;
     line-height: 1.2;
     text-align: center;
 
@@ -80,6 +133,10 @@
                 border: 1px solid #f3c653;
                 color: #fff;
             }
+
+        @include tablet {
+            font-size: 14px;
+        }
 
         @include desktop {
             font-size: 20px;

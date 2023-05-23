@@ -1,5 +1,9 @@
 .about-gen__slider {
-    max-width: 842px;
+    max-width: 350px;
+
+    @include desktop {
+        max-width: 842px;
+    }
 }
 
 .about-gen__slider .slick-track {
@@ -27,7 +31,11 @@
     fill: #000;
 
     top: 20px;
-    left: 730px;
+    left: 0;
+
+    @include desktop {
+        left: 730px;
+    }
 }
 
 .about-svg-left {
@@ -46,14 +54,27 @@
 
 .about__text {
     line-height: 1.5;
-
     color: #c79002;
+    font-size: 14px;
+
+    @include desktop {
+        font-size: 16px;
+    }
 }
 
 .about-block--all {
     display: flex;
     gap: 60px;
     margin-top: 50px;
+    flex-wrap: wrap;
+
+    @include tablet {
+        flex-wrap: nowrap;
+    }
+
+    @include desktop {
+        flex-wrap: nowrap;
+    }
 }
 
 .about__slider--name {
