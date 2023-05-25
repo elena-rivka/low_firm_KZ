@@ -537,7 +537,7 @@ img {
 
 .hero__girl {
   position: absolute;
-  bottom: 115px;
+  bottom: 111px;
   left: 54%;
   width: 170px;
 }
@@ -1014,4 +1014,52 @@ img {
 .footer__icon {
   width: 31px;
   height: 31px;
+}
+
+.th-p {
+  padding-top: 212px;
+  padding-bottom: 243px;
+}
+
+.block__tp {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .block__tp {
+    gap: 26px;
+  }
+}
+
+.title__tp {
+  font-family: "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #FFFFFF;
+}
+@media screen and (min-width: 1200px) {
+  .title__tp {
+    font-size: 36px;
+  }
+}
+
+.sub-title__tp {
+  font-family: "Montserrat";
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-top: 53px;
+  margin-top: 32px;
+  font-size: 14px;
+  color: #C79002;
+}
+@media screen and (min-width: 1200px) {
+  .sub-title__tp {
+    font-size: 16px;
+    margin-top: 53px;
+  }
 }/*# sourceMappingURL=main.css.map */
